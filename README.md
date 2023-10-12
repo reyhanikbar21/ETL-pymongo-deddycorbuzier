@@ -1,4 +1,4 @@
-# Deddy Corbuzier ETL Project
+# Self Study - Deddy Corbuzier ETL Project
 
 ## introduction
 The Deddy Corbuzier ETL Project aims to automate the process of extracting video data from the Deddy Corbuzier YouTube channel with youtube data API and then saving it in CSV and JSON file formats. Simultaneously, the project uploads the extracted data to a MongoDB server. By doing this, it simplifies the data retrieval process for analysis and insights.
