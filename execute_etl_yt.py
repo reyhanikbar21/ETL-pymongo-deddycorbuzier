@@ -14,7 +14,7 @@ jsonlist = last_n_video_channel(howmanyvideo,channelid)
 
 #import to mongodb
 t2=time.time()
-url ="mongodb+srv://reyhanikbar21:CGEwqjyYGzRYRNMf@cluster0.wc8york.mongodb.net/?retryWrites=true&w=majority"
+url = <MongoDB connect URL>              #URL censored
 jsonlist_to_mongodb(jsonlist,url,"channelvideo","DeddyCorbuzier") #import to "channelvideo" db and "DeddyCorbuzier" collection
 
 #make dataframe
