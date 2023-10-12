@@ -4,7 +4,7 @@ import googleapiclient.discovery
 # API information
 api_service = "youtube"
 api_version = "v3"
-api_key = "AIzaSyDvRqqL1AZRLyzioxCt-pyXOncyqGYCAlk"
+api_key = <API KEY> #API KEY censored
 
 def last_n_video_channel(n,channel_id):
     #API Client
