@@ -15,7 +15,7 @@ def last_n_video_channel(n,channel_id):
     #Querying upload playlist id from the channel
     request_channel = youtube.channels().list(
         part = "contentDetails",
-        id = channel_id,
+        forUsername = channel_username,
         maxResults=1
     )
     response_channel = request_channel.execute()
