@@ -8,7 +8,7 @@ current_datetime = datetime.now()
 
 #extract data from Youtube API
 t1=time.time()
-channelid="UCYk4LJI0Pr6RBDWowMm-KUw"    #ID for Deddy Corbuzier Channel
+channel_username= "corbuzier"           #username for Deddy Corbuzier Channel
 howmanyvideo=49                         #Extract last 49 videos
 jsonlist = last_n_video_channel(howmanyvideo,channelid)
 
