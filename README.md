@@ -11,4 +11,4 @@ The Deddy Corbuzier ETL Project aims to automate the process of extracting video
     - DeddyVideo.csv: A CSV file containing video information.
     - DeddyVideo.json: A JSON file containing video information.
 - Upload raw data to a MongoDB server for further analysis and storage.
-- Upload transformed data to a MongoDB server for further analysis and storage.
+- Upload transformed data to a PostgreSQL server for further analysis and storage.
